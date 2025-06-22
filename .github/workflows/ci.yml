@@ -2,9 +2,9 @@ name: CI
 
 on:
   push:
-    branches: [ main, develop ]
+    branches: [ main, master, develop ]
   pull_request:
-    branches: [ main, develop ]
+    branches: [ main, master, develop ]
 
 jobs:
   build-test:
@@ -21,7 +21,7 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v3
         with:
-          version: 9
+          version: 10
           
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
@@ -50,7 +50,7 @@ jobs:
       - name: Setup pnpm
         uses: pnpm/action-setup@v3
         with:
-          version: 9
+          version: 10
           
       - name: Install dependencies
         run: pnpm install --frozen-lockfile
