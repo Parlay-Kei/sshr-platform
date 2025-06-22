@@ -55,6 +55,14 @@ pnpm install
 pnpm dev            # web ⬅︎→ api via turborepo
 ```
 
+### 🎯 One-Line Developer Onboarding
+
+```bash
+curl -sSf https://raw.githubusercontent.com/Parlay-Kei/sshr-platform/main/tools/onboard.sh | bash
+```
+
+This script installs pnpm, pre-commit hooks, loads .env.example, and makes new contributors productive in minutes.
+
 ### Environment Setup
 
 Create `.env` in `apps/web/`:
