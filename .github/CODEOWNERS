@@ -1,0 +1,24 @@
+# Infrastructure
+/infra/ @Parlay-Kei/infra-admins
+
+# Backend
+/apps/api/ @Parlay-Kei/backend-team
+/packages/common/ @Parlay-Kei/backend-team
+
+# Frontend
+/apps/web/ @Parlay-Kei/frontend-team
+
+# Documentation
+/docs/ @Parlay-Kei/tech-writers
+
+# CI/CD and workflows
+/.github/workflows/ @Parlay-Kei/devops-team
+
+# Root configuration files
+/package.json @Parlay-Kei/tech-leads
+/turbo.json @Parlay-Kei/tech-leads
+/pnpm-workspace.yaml @Parlay-Kei/tech-leads
+
+# Security and compliance
+/.github/CODEOWNERS @Parlay-Kei/security-team
+/.github/SECURITY.md @Parlay-Kei/security-team 
